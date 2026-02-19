@@ -1,1 +1,1 @@
-## Device config for TWRP Infinix HOT 50 ( Infinix-X6882 )
+## Device config for PBRP Infinix HOT 60 PRO PLUS ( Infinix-X6886 )
