@@ -171,3 +171,5 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6886
 
 # TWRP Configs
 TW_DEVICE_VERSION := X6882_by_mahiro
+OF_MAINTAINER := Mahiro | celo_xx
+FOX_BUILD_TYPE := Unofficial
