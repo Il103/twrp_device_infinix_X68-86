@@ -83,7 +83,7 @@ CORES=$(nproc --all)
 MEM=$(free -h | awk '/^Mem:/ {print $2}')
 
 echo -e "\n${GRAY}─────────────────────────────────────────────────────────────────────────────────────────${NC}"
-printf "${RED}» OPERATOR:${NC} %-19s ${CYAN}» NODE:${NC} %-19s ${WHITE}» STATUS:${NC} ONLINE\n" "XTENSEI" "ShadowbytePjkt"
+printf "${RED}» OPERATOR:${NC} %-19s ${CYAN}» NODE:${NC} %-19s ${WHITE}» STATUS:${NC} ONLINE\n" "Mahiro" "ShadowbytePjkt"
 printf "${RED}» TARGET:${NC}   %-19s ${CYAN}» BRANCH:${NC} %-19s ${WHITE}» ARCH:${NC}   ARM64\n" "INFINIX-X6886" "PBRP-12.1"
 printf "${RED}» CPU CORES:${NC} %-18s ${CYAN}» RAM:${NC} %-20s\n" "$CORES" "$MEM"
 echo -e "${GRAY}─────────────────────────────────────────────────────────────────────────────────────────${NC}\n"
@@ -116,7 +116,7 @@ slide_header "${PURPLE}" "${P_HEADER[@]}"
 
 echo -e "\n${WHITE}[ PROJECT METADATA ]${NC}"
 echo -e "${GRAY}┌───────────────────────────────────────────────────────────────────────────────────────┐${NC}"
-echo -ne "  ${RED}■${NC} ${WHITE}REPOSITORY:${NC} " && typewriter "https://github.com/XTENSEI/twrp_device_infinix_X6886.git" && echo ""
+echo -ne "  ${RED}■${NC} ${WHITE}REPOSITORY:${NC} " && typewriter "https://github.com/rinnsakaguchi/twrp_device_infinix_X6886.git" && echo ""
 echo -ne "  ${RED}■${NC} ${WHITE}TEAM:${NC}         " && typewriter "#GRAYRAVENSTEAM x ShadowBytePrjkt" && echo ""
 echo -ne "  ${CYAN}■${NC} ${WHITE}NOTICE:${NC}     " && typewriter "This is ShadowbytePrjkt " && echo ""
 echo -e "${GRAY}└───────────────────────────────────────────────────────────────────────────────────────┘${NC}"

@@ -7,8 +7,8 @@
 # Inherit from Infinix-X6886 device
 $(call inherit-product, device/infinix/X6886/device.mk)
 
-# Inherit some common PBRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := ofox_X6886
