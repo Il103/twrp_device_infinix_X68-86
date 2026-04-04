@@ -13,6 +13,9 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 
+# The path to a temperature sensor
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone19/temp"
+
 # Power
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
@@ -170,4 +173,4 @@ TARGET_INIT_VENDOR_LIB := libinit_Infinix-X6886
 TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6886
 
 # TWRP Configs
-TW_DEVICE_VERSION := X6882_by_mahiro
+TW_DEVICE_VERSION := celo_xx
